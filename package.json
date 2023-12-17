@@ -1,0 +1,36 @@
+{
+  "name": "lienzo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "json-server --watch db.json --port=4000"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@preact/signals": "^1.2.2",
+    "@vigilio/express": "^1.5.1",
+    "@vigilio/preact-fetching": "^2.0.7",
+    "@vigilio/preact-paginator": "^0.0.8",
+    "@vigilio/preact-table": "^1.0.16",
+    "@vigilio/sweet": "^1.0.11",
+    "preact": "^10.19.1",
+    "react-hook-form": "^7.49.0",
+    "tslib": "^2.6.2",
+    "valibot": "^0.24.1",
+    "wouter": "^2.12.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.6.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.16",
+    "json-server": "^0.17.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}

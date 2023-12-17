@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "title": "nuevo titulo 2",
+      "content": "nuevo contenido 2",
+      "id": "hh57mT-"
+    },
+    {
+      "title": "nuasdevo titulo 3",
+      "content": "nuevo contenido 3",
+      "id": "K4hv_a2"
+    },
+    {
+      "title": "Nueva publicacion",
+      "content": "Otra? esta es una validacion req",
+      "id": "wKumCYa"
+    }
+  ]
+}
