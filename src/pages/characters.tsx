@@ -23,7 +23,7 @@ const CharactersPage = () => {
     ],
   });
 
-  const { refetch, data } = useQuery<RickAndMortyAPI, unknown>(
+  const { refetch } = useQuery<RickAndMortyAPI, unknown>(
     "https://rickandmortyapi.com/api/character",
     (url) => {
         const params = new URLSearchParams()
@@ -122,7 +122,7 @@ const CharactersPage = () => {
         </button>
 
         <div class="flex items-center gap-x-1">
-          {pagination.paginator.pages.map((p, i) => (
+          {pagination.paginator.pages.map((p) => (
             <button
               key={p}
               type="button"

@@ -102,7 +102,7 @@ const Pokemons = () => {
         </button>
 
         <div class="flex items-center gap-x-1">
-          {pagination.paginator.pages.map((p, i) => (
+          {pagination.paginator.pages.map((p) => (
             <button
               key={p}
               type="button"

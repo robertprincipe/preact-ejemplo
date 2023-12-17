@@ -1,9 +1,8 @@
-import { useMutation, useQuery } from "@vigilio/preact-fetching";
+import { useQuery } from "@vigilio/preact-fetching";
 
 import { render } from "preact";
 import { c, sweetModal } from "@vigilio/sweet";
 import PostForm from "../components/post-form";
-import { useState } from "preact/hooks";
 
 type Post = {
   id: string;
